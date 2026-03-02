@@ -6,3 +6,9 @@ My code and challenge solutions for the [Digi-Key Introduction to RTOS](https://
 * Part 4: Memory Management
 *(More to be added as I progress)*
 EOF
+
+# SETUP
+
+# PLANNING and ROADMAP
+
+# DOCUMENTATION
