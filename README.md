@@ -15,11 +15,16 @@ EOF
 
 > NOTE :- if you are on linux you would need to give permission to access the USB port for the IDE. 
 > To do this add your user to a group which has access to the devices by using 
-> `sudo usermod -a -G uucp $USER`
+> `sudo usermod -a -G uucp $USER` {see reference 1}
 
+# Video - 1 
+
+## Setting esp32 baud rate
+- there is a default baud rate set on esp32 as 115200. It is used by the bootload to report inital diagnostics data. {see reference 1 - section "verify Serial connection"}
 
 
 
 # PLANNING and ROADMAP
 
 # DOCUMENTATION
+1. [Establish Serial Connection with ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/establish-serial-connection.html#establish-serial-connection-with-esp32)

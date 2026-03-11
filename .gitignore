@@ -5,10 +5,10 @@ build/
 *.bin
 *.uf2
 
-# donot include obsidian (MD editor) workspace settings.
-./.obsidian/workspace.json
+# Do not include Obsidian workspace settings
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
 
 # Ignore OS files
 .DS_Store
 Thumbs.db
-EOF
