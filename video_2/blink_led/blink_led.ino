@@ -57,7 +57,7 @@ void setup() {
   Serial.println(app_cpu);
 
   // put your setup code here, to run once:
-  pinMode (led_pin, OUTPUT);
+  pinMode (led_pin, OUTPUT);De
 
   xTaskCreatePinnedToCore(
     toggleLED_H,
